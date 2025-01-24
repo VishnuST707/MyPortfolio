@@ -97,7 +97,7 @@ function MyPortfolio() {
                WebkitTextFillColor: 'transparent',}}>
                 A JAVA FULLSTACK DEVELOPER
               </Typography>
-              <a href="https://www.canva.com/design/DAGc_yZYAVk/Ww-4Dy-0FBCa6wKNQsLPJw/view?utm_content=DAGc_yZYAVk&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=hfdf5db8bb9" >
+              <a href="https://www.canva.com/design/DAGdFRP3_pU/lfQBqsE5w0aq0HzViB52tg/view?utm_content=DAGdFRP3_pU&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h9fe8bdb8a5" >
                   <Box sx={{height: 30,width: 200,background: 'linear-gradient(90deg, rgb(200, 0, 255) 0%, rgb(5, 167, 62) 100%)',borderRadius: '30px',display: 'flex',justifyContent: 'center',alignItems: 'center' }}>
                         <Typography sx={{color: 'rgb(15, 15, 14)',textAlign: 'center',}}>
                          View My Resume
