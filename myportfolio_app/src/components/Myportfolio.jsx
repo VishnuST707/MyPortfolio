@@ -204,6 +204,7 @@ className="parBox"
 ref={addToRefs}
 sx={{
   backgroundColor: "rgba(53, 52, 52, 0.51)",
+  borderRadius: "20px",
   height: { xs: "auto", sm: 500, md: 450 },
   padding: { xs: 2, sm: 4 },
 }}
@@ -342,6 +343,7 @@ className="parBox"
 ref={addToRefs}
 sx={{
   backgroundColor: "rgba(53, 52, 52, 0.51)",
+  borderRadius: "20px",
   height: { xs: "auto", sm: 500, md: 450 },
   padding: { xs: 2, sm: 4 },
 }}
@@ -458,7 +460,7 @@ sx={{
       flex: 1,
       height: { xs: 250, sm: 400, md: 440 },
       borderRadius: "30px",
-      border: "7px solid orange",
+      border: "7px solid green",
     }}
   >
     <iframe
@@ -480,6 +482,7 @@ className="parBox"
 ref={addToRefs}
 sx={{
   backgroundColor: "rgba(53, 52, 52, 0.51)",
+  borderRadius: "20px",
   height: { xs: "auto", sm: 500, md: 450 },
   padding: { xs: 2, sm: 4 },
 }}
@@ -500,7 +503,7 @@ sx={{
       flex: 1,
       height: { xs: 350, sm: 400, md: 440 },
       borderRadius: "30px",
-      border: "7px solid orange",
+      border: "7px solid blue",
     }}
   >
     <iframe
@@ -671,10 +674,14 @@ sx={{
             Technological Skills
           </Typography>
           <List sx={{ color: "white" }}>
-            <ListItem>Java, SpringBoot, Hibernate</ListItem>
-            <ListItem>Figma, HTML, CSS, Bootstrap, Material UI, Tailwind CSS</ListItem>
-            <ListItem>React.js, React Bootstrap</ListItem>
-            <ListItem>MySQL, Git, GitHub</ListItem>
+            <ListItem>LANGUAGE  : Java,JavaScript,SQL </ListItem>
+            <ListItem>FRAMEWORK :SpringBoot, Hibernate </ListItem>
+            <ListItem>DESIGN TOOL : Figma </ListItem>
+            <ListItem>MARKUP LANGUAGE: HTML</ListItem>
+            <ListItem>STYLING TOOL : CSS, Bootstrap,React Bootstrap, Material UI, Tailwind CSS</ListItem>
+            <ListItem>JAVASCRIPT FRAMEWORK : React.js</ListItem>
+            <ListItem>DATABASE MANAGEMENT : MySQL</ListItem>
+            <ListItem>VERSION CONTROL : Git,GitHub</ListItem>
           </List>
         </Box>
 
@@ -715,7 +722,7 @@ sx={{
               <ListItemIcon>
                 <AlternateEmailIcon sx={{ color: "red" }} />
               </ListItemIcon>
-              <Typography sx={{ color: "white" }}>vishnustshanmughan7@gmail.com</Typography>
+              <Typography sx={{ color: "white",fontSize:"11px" }}>vishnustshanmughan7@gmail.com</Typography>
             </ListItem>
             <ListItem>
               <ListItemIcon>
