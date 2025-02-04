@@ -615,6 +615,144 @@ sx={{
   </Box>
 </Stack>
 </Box>
+{/*4th project*/}
+<Box
+className="parBox"
+ref={addToRefs}
+sx={{
+  backgroundColor: "rgba(53, 52, 52, 0.51)",
+  borderRadius: "20px",
+  height: { xs: "auto", sm: 500, md: 450 },
+  padding: { xs: 2, sm: 4 },
+}}
+>
+<Stack
+  direction={{ xs: "column", md: "row" }}
+  spacing={{ xs: 3, md: 5 }}
+  sx={{
+    justifyContent: "center",
+    alignItems: "center",
+    height: "100%",
+  }}
+>
+  {/* Left box */}
+  <Box
+    sx={{
+      backgroundColor: "rgba(53, 52, 52, 0)",
+      flex: 1,
+      height: "auto",
+      borderRadius: "30px",
+      display: "flex",
+      flexDirection: "column",
+      justifyContent: "center",
+      alignItems: "start",
+      textAlign: { xs: "center", md: "start" },
+    }}
+  >
+    <Typography
+      gutterBottom
+      variant="h3"
+      component="div"
+      sx={{
+        color: "rgb(252, 250, 249)",
+        fontWeight: 700,
+        fontFamily: "Roboto, sans-serif",
+        fontSize: { xs: "1.8rem", sm: "2.5rem" },
+      }}
+    >
+     PROJECT: BLOGGING APP – AUTHENTICATION SYSTEM
+    </Typography>
+    <Typography
+      gutterBottom
+      variant="h5"
+      component="div"
+      sx={{
+        color: "rgb(84, 82, 81)",
+        fontWeight: 700,
+        fontFamily: "Roboto, sans-serif",
+      }}
+    >
+      Objective
+    </Typography>
+    <Typography
+      gutterBottom
+      variant="subtitle1"
+      component="div"
+      sx={{
+        color: "rgb(238, 235, 234)",
+        fontWeight: 100,
+        fontFamily: "Roboto, sans-serif",
+      }}
+    >
+       This project is a modern and responsive login & signup system designed for my upcoming blogging platform.
+        Built using React.js, CSS, and Bootstrap, it ensures a seamless user experience with a clean and intuitive UI
+    </Typography>
+    <Typography
+      gutterBottom
+      variant="h5"
+      component="div"
+      sx={{
+        color: "rgb(84, 82, 81)",
+        fontWeight: 700,
+        fontFamily: "Roboto, sans-serif",
+      }}
+    >
+      Role and Contribution
+    </Typography>
+    <Typography
+      gutterBottom
+      variant="subtitle1"
+      component="div"
+      sx={{
+        color: "rgb(238, 235, 234)",
+        fontWeight: 100,
+        fontFamily: "Roboto, sans-serif",
+      }}
+    >
+      Independently designed and developed the entair login and Signup page using React Js and React Bootstrap,HTML and CSS.
+    </Typography>
+    <Typography
+      gutterBottom
+      variant="h5"
+      component="div"
+      sx={{
+        color: "rgb(84, 82, 81)",
+        fontWeight: 700,
+        fontFamily: "Roboto, sans-serif",
+      }}
+    >
+      Link
+    </Typography>
+    <Box sx={{ display: "flex", justifyContent: { xs: "center", md: "start" } }}>
+      <a href="https://login-signup-project-hazel.vercel.app/">
+        <LinkIcon style={{ fontSize: 30, color: "white" }} />
+      </a>
+    </Box>
+  </Box>
+
+  {/* Right box */}
+  <Box
+    sx={{
+      backgroundColor: "rgba(53, 52, 52, 0.43)",
+      flex: 1,
+      height: { xs: 250, sm: 400, md: 440 },
+      borderRadius: "30px",
+      border: "7px solid Purple",
+    }}
+  >
+    <iframe
+      style={{
+        width: "100%",
+        height: "100%",
+        borderRadius: "20px",
+        border: "none",
+      }}
+      src="https://login-signup-project-hazel.vercel.app/"
+    ></iframe>
+  </Box>
+ 
+</Stack>
+</Box>
 <Box sx={{ backgroundColor: "black", minHeight: "10vh", pt: 4,pl:4,spacing:5 }}>
       <Stack
         direction={{ xs: "column", md: "row" }}
